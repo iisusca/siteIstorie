@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    font-family: sans-serif;
+    color:aliceblue;
+    height: 100vh;
+}
+.intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.title {
+    position:absolute;
+    font-size:10vh;
+    top:50%; left:50%; 
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.subtitle {
+    position:absolute;
+
+    font-size:5vh;
+    width:25vw;
+    top:60vh;left:37.5vw;
+}
+
+section {
+    height: 100vh;
+    width:100vw;
+    color:black;
+    background-color: aliceblue;
+}
