@@ -1,4 +1,18 @@
-const intro=document.querySelector('.intro');
+document.body.style.scrollbarFaceColor="red"
+document.body.style.scrollbarArrowColor="blue"
+document.body.style.scrollbarTrackColor="orange"
+document.body.style.scrollbarShadowColor="black"
+document.body.style.scrollbarHighlightColor="brown"
+document.body.style.scrollbar3dlightColor="green"
+document.body.style.scrollbarDarkshadowColor="orange"
+
+
+
+
+
+
+
+/*const intro=document.querySelector('.intro');
 const video=document.querySelector('.video');
 const text=document.querySelector('.text');
 
@@ -37,4 +51,4 @@ scene.on('update', e => {
 setInterval(() => {
     delay +=(scrollpos - delay)*accelamount;
     video.currentTime = scrollpos;
-}, 120);
+}, 120);*/

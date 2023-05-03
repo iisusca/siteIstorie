@@ -3,11 +3,71 @@ body {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-gutter: stable both-edges;
+    overflow-x: hidden;
+    
 }
 
+.title-sectiune {
+    font-size: 10vh;
+    left:50%;
+    transform: translateX(-50%);
+    position: relative;
+    padding-left:2vw;
+    padding-top:2vh;
+    padding-right:2vw;
+    
+}
+
+.picture {
+    border-radius:10px;
+    position: relative;
+    width: 84%;
+    margin:2vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    padding-right:2vw;
+    padding-left:2vw;
+    background-size: cover;
+    height: 40vh;
+    background-position-y: center;
+}
+
+
+.info-box {
+    border-radius:10px;
+    position: relative;
+    background-color: white;
+    font-size:4vh;
+    width: 90%;
+    margin:2vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    padding-right:2vw;
+    
+}
+.sectiune {
+    
+    /*height:90vh;*/
+    width: 50vw;
+    left:25vw;
+    position:relative;
+    border-radius: 10px;
+    box-shadow: inset;
+    margin:5vh;
+    text-align: center;
+}
+
+.sectiune:nth-child(2n) {
+    background-color: red;
+}
+
+.sectiune:nth-child(2n+1) {
+    background-color: rebeccapurple;
+}
 .intro {
     font-family: sans-serif;
-    color:aliceblue;
+    color:white;
     height: 100vh;
 }
 .intro video {
@@ -16,13 +76,14 @@ body {
     object-fit: cover;
 }
 .title {
-    position:absolute;
+    position:relative;
     font-size:10vh;
     top:50%; left:50%; 
     transform: translate(-50%, -50%);
     
     
 }
+
 
 .subtitle {
     position:absolute;
@@ -38,3 +99,98 @@ section {
     color:black;
     background-color: aliceblue;
 }
+
+
+.picture-box-pietroasele {
+    background-image:url(photos/pietroasele.jpg);
+}
+
+.picture-box-closca {
+    background-image:url(photos/closca2.png);
+}
+
+.picture-box-tesaurul {
+    background-image:url(photos/tesaurul.png);
+
+}
+
+.picture-box-reproducerile {
+    background-image:url(photos/reproducerile.png);
+}
+
+.picture-box-huni {
+    background-image:url(photos/huni.png);
+}
+
+.picture-box-gepida {
+    background-image:url(photos/printesagepida.png);
+}
+
+.picture-box-ornament {
+    background-image:url(photos/ornament1.png);
+}
+.picture-box-ornament2 {
+    background-image:url(photos/ornament2.png);
+}
+
+
+.picture-box-avari-vas {
+    background-image:url(photos/avari1.png);
+}
+
+.picture-box-avari-tezaur {
+    background-image:url(photos/avari2.png);
+
+}
+
+.picture-box-slavi1 {
+    background-image:url(photos/avari2.png);
+}
+
+.picture-box-slavi2 {
+    background-image:url(photos/slavi2.png);
+}
+
+.picture-box-unguri1 {
+    background-image:url(photos/unguri1.png);
+}
+.picture-box-unguri2 {
+    background-image:url(photos/unguri2.png);
+
+}
+
+.picture-box-cumani {
+    background-image:url(photos/cumani.png);
+}
+
+.picture-box-pecenegi {
+    background-image:url(photos/pecenegi1.png);
+
+    
+}
+
+.picture-box-pecenegi2 {
+    background-image:url(photos/pecenegi2.png);
+
+}
+
+.picture-box-pecenegi3 {
+    background-image:url(photos/pecenegi3.png);
+
+}
+
+.picture-box-mongoli1 {
+    background-image:url(photos/mongoli1.png);
+
+}
+
+.picture-box-mongoli2 {
+    background-image:url(photos/mongoli2.png);
+
+}
+
+.picture-box-tatari {
+    background-image:url(photos/tatari.png);
+
+}
+
