@@ -1,14 +1,21 @@
-document.body.style.scrollbarFaceColor="red"
-document.body.style.scrollbarArrowColor="blue"
-document.body.style.scrollbarTrackColor="orange"
-document.body.style.scrollbarShadowColor="black"
-document.body.style.scrollbarHighlightColor="brown"
-document.body.style.scrollbar3dlightColor="green"
-document.body.style.scrollbarDarkshadowColor="orange"
 
 
+//NVM fac mai multe doar ca cu marimi diferite...
+window.addEventListener('scroll', () => {
+    document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    document.getElementById('year').textContent="Anul " + Math.round((window.pageYOffset / (document.body.offsetHeight - window.innerHeight)*500+300));
+    if(window.pageYOffset / (document.body.offsetHeight - window.innerHeight)<0.3) {
+        document.body.style.setProperty('--my-var', 100);
+        document.getElementById('fill-color').style.backgroundColor="red";
+    }
+    if(window.pageYOffset / (document.body.offsetHeight - window.innerHeight)>0.3) {
+        document.body.style.setProperty('--my-var', 200);
+        document.getElementById('fill-color').style.backgroundColor="orange";
 
-
+    }
+    //Deci ce vreau; sa creasca pana cand o valoare ajunge la capat, apoi din nou zeo, apoi val. iara creste...
+    
+  }, false);
 
 
 
